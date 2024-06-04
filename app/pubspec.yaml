@@ -1,0 +1,48 @@
+name: app
+description: "App do AiPub"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  convex_bottom_bar: ^3.2.0
+
+  shared:
+    path: ../shared
+  brasil_fields: ^1.14.3
+  pretty_qr_code: ^3.3.0
+  fluttertoast: ^8.2.5
+  uuid: ^4.4.0
+  provider: ^6.1.2
+  dio: ^5.4.3+1
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.0
+  # google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/img/
+    
+
+ 
